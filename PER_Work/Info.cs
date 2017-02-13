@@ -16,5 +16,40 @@ namespace PER_Work
         {
             InitializeComponent();
         }
+
+        private void Confirmar_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void txtnome_Enter(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtnome_Leave(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtsobrenome_Enter(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtsobrenome_Leave(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtmail_Enter(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtmail_Leave(object sender, EventArgs e)
+        {
+
+        }
     }
 }
