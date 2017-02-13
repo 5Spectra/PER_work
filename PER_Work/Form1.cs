@@ -10,11 +10,16 @@ using System.Windows.Forms;
 
 namespace PER_Work
 {
-    public partial class Form1 : Form
+    public partial class intro : Form
     {
-        public Form1()
+        public intro()
         {
             InitializeComponent();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
