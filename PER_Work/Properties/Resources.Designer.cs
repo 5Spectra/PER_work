@@ -63,6 +63,26 @@ namespace PER_Work.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _03d2c1238354a57477acb4eae97bc4f0 {
+            get {
+                object obj = ResourceManager.GetObject("03d2c1238354a57477acb4eae97bc4f0", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap meia {
+            get {
+                object obj = ResourceManager.GetObject("meia", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Quiz_Games_red {
             get {
                 object obj = ResourceManager.GetObject("Quiz-Games-red", resourceCulture);

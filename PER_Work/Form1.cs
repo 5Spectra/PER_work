@@ -21,7 +21,8 @@ namespace PER_Work
         {
             MessageBox.Show("Coloque seus dados");
             info I1 = new info();
-            I1.ShowDialog(); ;
+            I1.ShowDialog();
+            //this.Close();
         }
     }
 }

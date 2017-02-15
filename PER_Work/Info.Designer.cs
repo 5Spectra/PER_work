@@ -74,8 +74,7 @@
             this.txtsobrenome.Location = new System.Drawing.Point(113, 94);
             this.txtsobrenome.Name = "txtsobrenome";
             this.txtsobrenome.Size = new System.Drawing.Size(210, 24);
-            this.txtsobrenome.TabIndex = 3;
-            this.txtsobrenome.Text = "Seu segundo nome | Ex: Rusk";
+            this.txtsobrenome.TabIndex = 4;
             this.txtsobrenome.Enter += new System.EventHandler(this.txtsobrenome_Enter);
             // 
             // txtmail
@@ -85,7 +84,6 @@
             this.txtmail.Name = "txtmail";
             this.txtmail.Size = new System.Drawing.Size(210, 24);
             this.txtmail.TabIndex = 4;
-            this.txtmail.Text = "Seu e-mail | Ex: url@x.com";
             this.txtmail.Enter += new System.EventHandler(this.txtmail_Enter);
             // 
             // txtnome
@@ -94,8 +92,7 @@
             this.txtnome.Location = new System.Drawing.Point(113, 32);
             this.txtnome.Name = "txtnome";
             this.txtnome.Size = new System.Drawing.Size(210, 24);
-            this.txtnome.TabIndex = 4;
-            this.txtnome.Text = "Seu nome | Ex: Andre";
+            this.txtnome.TabIndex = 3;
             this.txtnome.Enter += new System.EventHandler(this.txtnome_Enter);
             // 
             // Confirmar
