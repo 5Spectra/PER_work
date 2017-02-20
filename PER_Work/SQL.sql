@@ -16,8 +16,8 @@ create table TBPerguntas(
 	nivel varchar(40),
 	pontos int	)
 	
-select * from TBPerguntas
-select * from TBJogadores
+select * from TBPerguntas where id_jogador = 3
+select * from TBJogadores where id_jogador = 7
 
 drop table TBJogadores
 drop table TBPerguntas
@@ -25,3 +25,8 @@ drop table TBPerguntas
 truncate table TBJogadores
 truncate table TBPerguntas
 
+Select pontos from TBJogadores where id_jogador = 1 join TBPerguntas on TBJogadores.id_jogador = TBPerguntas.id_jogador
+
+Select pontos from TBJogadores where id_jogador = 1 join TBPerguntas on TBJogadores.id_jogador = TBPerguntas.id_jogador
+
+Select SUM(pontos) from TBPerguntas where id_jogador = 3
